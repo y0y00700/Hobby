@@ -1,0 +1,7 @@
+css transition-> css속성을 변경할 때 애니메이션의 속도를 조절하는 방법제공
+문법 
+div{
+	transition:<property> <duration> <timing-function> <delay>;
+}
+
+transform 트랜스폼은 프로퍼티값으로 변환함수를 사용
