@@ -1,0 +1,97 @@
+05.06
+
+http://velopert.com/3044 --> vuejs study 
+jsp
+
+jstl , el
+
+
+mvc
+mvp
+mvvm
+
+-----------------------------------
+
+처음에는 ui와 logic을 분리.
+나중에는 데이터도 분리 -> mvc
+
+pre-> 타이핑한대로 그대로 출력해준다.
+
+v-text
+v-html
+v-show
+v-if
+v-else
+v-else if
+v-pre
+
+:(콜론)사용시 v-bind 생략 가능...
+<img v-bind src=""> == <img :src="">
+------------------------------------------------------
+데이터 바인딩
+1.단방향 : A가 변화->B가 변화 , B가 변화->A 변화x
+2.양방향 : A가 변화->B가 변화 , B가 변화->A가 변화
+vue.js는 양방향 데이터 바인딩이 허용
+
+자바스크립트 ( jQuery 서버 - 클라이언트 데이터 전송 방식)
+form에 입력한 값을 -> serialize 해서 서버에 보냄
+
+Full Stack 개발자
+: 프론트엔드와 백엔드를 모두 잘 하는 개발자
+
+-----------------------------------------------------
+vendor들의 말을 100% 믿지 말자.
+
+
+----------------------------------------------------
+
+
+
+		throw new Error('Network reponse was not ok');
+	}
+function(response){
+	if(response.ok){
+		return response.json();
+	}
+	throw new Error('network response was not ok');
+}
+
+--------------------------------------------------------
+Ajax에서 Json데이터의 형식
+1.배열
+[{},{}]
+2.객체
+{}
+3.목록
+{products:[]}
+
+
+1.Javascript 객체 사용
+2.jQuery
+3.axios
+4.fetch()
+
+------------------------------------------------------------
+람다식 or 화살표함수
+(parameter) => 함수의 본문
+ 
+------------------------------------------------------------
+AngularJS
+angularJS는 자체적으로 전송방식을 보유하고있다.
+
+------------------------------------------------------------
+web 의 전송방식(method)
+1.get
+2.post
+
+Rest 방식 or Restful방식
+1.get	->select
+2.post	->insert
+3.delete	->delete
+4.put	->update
+5.patch	->update
+
+
+
+
+
